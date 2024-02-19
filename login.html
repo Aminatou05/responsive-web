@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./styles1/styles.css" />
+    <style>
+      /* body {
+        background-image: url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxvZ2lufGVufDB8fDB8fHww");
+      } */
+      input[type="text"],
+      [type="UserName"],
+      [type="password"] {
+        width: 25%;
+        border-radius: 8px;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Landing Page</a></li>
+        <li><a href="registration.html">Registration  Page</a></li>
+        <li><a href="login.html">Login Page</a></li>
+        <!-- <li style="float: right"><a href="#">About</a></li> -->
+      </ul>
+    </nav>
+    <div class="form1-center">
+      <h1 class="form1-title">Login Page</h1>
+      <form>
+        <div>
+          <label class="input1-label">User Name</label>
+          <input
+            type="text"
+            name="UserName"
+            id="UserName"
+            required
+            placeholder="User Name"
+          /><br />
+        </div>
+        <br />
+        <div>
+          <label class="input1-label">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          /><br />
+        </div>
+
+        <div>
+          <button class="btn1" type="submit">submit</button>
+        </div>
+      </form>
+    </div>
+    
+  </body>
+</html>
